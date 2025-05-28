@@ -1,0 +1,192 @@
+{
+    "detections": [
+        {
+            "text": "Kimberly",
+            "position": {
+                "charoffset": 1,
+                "x": 8,
+                "y": 1
+            },
+            "detectionType": "name_first (persons first name)"
+        },
+        {
+            "text": "Mohala",
+            "position": {
+                "charoffset": 37,
+                "x": 6,
+                "y": 3
+            },
+            "detectionType": "name_first (persons first name)"
+        },
+        {
+            "text": "Bert",
+            "position": {
+                "charoffset": 127,
+                "x": 4,
+                "y": 7
+            },
+            "detectionType": "name_first (persons first name)"
+        },
+        {
+            "text": "Marcia",
+            "position": {
+                "charoffset": 206,
+                "x": 6,
+                "y": 16
+            },
+            "detectionType": "name_first (persons first name)"
+        },
+        {
+            "text": "Sigman",
+            "position": {
+                "charoffset": 10,
+                "x": 6,
+                "y": 2
+            },
+            "detectionType": "name_last (persons last name)"
+        },
+        {
+            "text": "Asato",
+            "position": {
+                "charoffset": 44,
+                "x": 5,
+                "y": 4
+            },
+            "detectionType": "name_last (persons last name)"
+        },
+        {
+            "text": "Berman",
+            "position": {
+                "charoffset": 132,
+                "x": 6,
+                "y": 9
+            },
+            "detectionType": "name_last (persons last name)"
+        },
+        {
+            "text": "Martin",
+            "position": {
+                "charoffset": 213,
+                "x": 6,
+                "y": 18
+            },
+            "detectionType": "name_last (persons last name)"
+        },
+        {
+            "text": "3100-3219",
+            "position": {
+                "charoffset": 182,
+                "x": 9,
+                "y": 13
+            },
+            "detectionType": "contact_phone (phone number)"
+        },
+        {
+            "text": "310-244-8110",
+            "position": {
+                "charoffset": 473,
+                "x": 12,
+                "y": 22
+            },
+            "detectionType": "contact_phone (phone number)"
+        }
+    ],
+    "solutions": [
+        [
+            "Kimberly",
+            "Mohala",
+            "Bert",
+            "Marcia",
+            "Sigman",
+            "Asato",
+            "Berman",
+            "Martin",
+            "3100-3219",
+            "310-244-8110"
+        ]
+    ],
+    "solutions_with_positions": [
+        [
+            [
+                "Kimberly",
+                1,
+                1,
+                8
+            ],
+            [
+                "Mohala",
+                37,
+                3,
+                6
+            ],
+            [
+                "Bert",
+                127,
+                7,
+                4
+            ],
+            [
+                "Marcia",
+                206,
+                16,
+                6
+            ],
+            [
+                "Sigman",
+                10,
+                2,
+                6
+            ],
+            [
+                "Asato",
+                44,
+                4,
+                5
+            ],
+            [
+                "Berman",
+                132,
+                9,
+                6
+            ],
+            [
+                "Martin",
+                213,
+                18,
+                6
+            ],
+            [
+                "3100-3219",
+                182,
+                13,
+                9
+            ],
+            [
+                "310-244-8110",
+                473,
+                22,
+                12
+            ]
+        ]
+    ],
+    "identities": [
+        {
+            "name_first (persons first name)": [
+                "Kimberly",
+                "Mohala",
+                "Bert",
+                "Marcia"
+            ],
+            "name_last (persons last name)": [
+                "Sigman",
+                "Asato",
+                "Berman",
+                "Martin"
+            ],
+            "contact_phone (phone number)": [
+                "3100-3219",
+                "310-244-8110"
+            ]
+        }
+    ]
+}
